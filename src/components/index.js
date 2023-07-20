@@ -1,7 +1,7 @@
 import NavBar from "./NavBar";
 import Hero from "./Hero"
 import Billing from "./Billing"
-import Bussiness from "./Business"
+import Business from "./Business"
 import Button from "./Button"
 import CardDeal from "./CardDeal"
 import Clients from "./Clients"
@@ -15,7 +15,7 @@ import Testimonials from './Testimonials'
 export {
     NavBar,
     Billing,
-    Bussiness,
+    Business,
     Button,
     CardDeal,
     Clients,
