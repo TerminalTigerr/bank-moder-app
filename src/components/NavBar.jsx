@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React, {Component} from "react";
 
 import {menu, logo, close} from "../assets"
 import { navLinks } from '../constants/seed';
