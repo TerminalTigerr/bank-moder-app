@@ -6,7 +6,8 @@ class GetStarted extends Component {
     return (
       <div 
 		className='flex justify-center items-center w-[140px] h-[140px] 
-			rounded-full bg-blue-gradient p-[2px] cursor-pointer hover:scale-125 transition ease-in-out duration-700'>
+			rounded-full bg-blue-gradient p-[2px] cursor-pointer hover:scale-125 transition ease-in-out duration-700
+			animate-pulse'>
 			<div className='flex justify-center items-center flex-col bg-primary w-full h-full rounded-full'>
 				<div className='flex justify-center items-start flex-row'>
 					<p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
