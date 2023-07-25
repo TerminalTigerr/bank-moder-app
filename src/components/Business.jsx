@@ -24,9 +24,11 @@ class Business extends Component {
 			<div className='flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative flex-col'>
 				{features.map((feature, index) => (
 					<FeatureCard 
-						key={this.props.id}
-						{...feature}
-						index={this.index}
+						key={feature.id}
+						icon={feature.icon}
+						title={feature.title}
+						content={feature.content}
+						index={index}
 					/>
 				))}
 			</div>
@@ -40,7 +42,7 @@ class FeatureCard extends Component {
 		return (
 			<div 
 				className={` flex flex-row p-6 rounded-[20px] 
-					${this.index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card`}>
+					${this.props.index == features.length - 1 ? 'mb-0' : 'mb-6'} feature-card`}>
 				<div className=' w-16 h-16 rounded-full bg-dimBlue flex justify-center items-center'>
 					<img src={this.props.icon} alt='icon' className='w-[50%] h-1/2 object-contain'/>
 				</div>
