@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styles from './style'
 
 import { NavBar, Hero, Stats, Billing, Business, Button, CardDeal, Clients, CTA,
 FeedBackCard, Footer, GetStarted, Testimonials } from './components'

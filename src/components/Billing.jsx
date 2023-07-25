@@ -4,8 +4,10 @@ import { apple, bill, google } from '../assets';
 class Billing extends Component {
   render() {
     return (
-      <section id='product' className='flex md:flex-row flex-col-reverse sm:py-16 py-6'>
-				<div className='flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative'>
+      <section id='product' 
+				className='flex md:flex-row flex-col-reverse sm:py-16 py-6'>
+				<div className='flex-1 flex justify-center items-center 
+					md:mr-10 mr-0 md:mt-0 mt-10 relative'>
 					<img src={bill} className='relative z-[5] w-full h-full '/>
 
 					<div className='absolute z-[3] -left-1/2 top-0 w-1/2 h-1/2 rounded-full white__gradient'/>
@@ -13,7 +15,8 @@ class Billing extends Component {
 				</div>
 
 				<div className='flex-1 flex justify-center items-start flex-col'>
-					<h2 className='font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full'>
+					<h2 className='font-poppins font-semibold xs:text-[48px] text-[40px] 
+						text-white xs:leading-[76.8px] leading-[66.8px] w-full'>
 					Easily control your <br className='sm:block hidden'/> billing & invoicing
 					</h2>
 					<p className='font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5'>
